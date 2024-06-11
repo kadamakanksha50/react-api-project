@@ -1,0 +1,210 @@
+.dash-container .header{
+    width: 100%;
+    height: 50px;
+    background: #B2CCD2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+    margin-bottom: 5px;
+}
+.header .title{
+    margin-left: 10px;
+}
+.header .nav{
+    margin-right: 10px;
+    padding: 10px;
+}
+.header .nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.header .nav a span{
+    border: 1px solid black;
+    padding: 8px 15px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+.header .nav a span:hover{
+    cursor: pointer;
+    background: #B2CCD2;
+    color: white;
+}
+.dash-container .contain{
+    width: 100%;
+    height: 635px;
+    background: url('https://wallpaperbat.com/img/464967-background-minimalist-desktop-wallpaper-hd-22-latar-belakang-desain-seni.png');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.contain .table-container,
+.contain .form-container{
+    width: 40%;
+    height: 92%;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.contain .table-container{
+    width: 60%;
+}
+form .input-field1 input{
+    width: 480px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 6px;
+    outline: none;
+    border: 2px solid rgba(95, 126, 158, 0.784);
+}
+form .input-field1 input:focus{
+    background:transparent;
+}
+form .action{
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+form .title2{
+    color: white;
+}
+form .action input[type="submit"]{
+    width: 280px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80px;
+    color: white;
+    background: rgba(95, 126, 158, 0.784);
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+form .action input[type="reset"]{
+    width: 280px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: red;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.disabled{
+    background: silver !important;
+    cursor: no-drop !important;
+    border:  2px solid silver !important;
+}
+.table-container table thead th{
+    padding: 12px;
+    background: transparent;
+    color: rgba(95, 126, 158, 0.784);
+    font-weight: 610;
+    font-size: 15px;
+    border-collapse:collapse ;
+}
+.table-container table tbody{
+    width: 100%;
+}
+.table-container table tr{
+    border-bottom: 2px solid white;
+}
+.table-container table tr td{
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.table-container table tbody tr .table-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.table-container table tbody tr .table-action button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgba(95, 126, 158, 0.784);
+}
+.show{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show .box{
+    width: 320px;
+    height: 150px;
+    border-radius: 2px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.show .box h2{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.67);
+    font-size: 19px;
+    font-weight: 599;
+    text-align: center;
+}
+.show .box .actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 8px;
+}
+.show .box .actions button{
+    width: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.show .box .actions button:nth-child(1){
+    background: rgba(95, 126, 158, 0.784);
+    color: white;
+    border: 2px solid rgba(95, 126, 158, 0.784);
+}
+.show .box .actions button:nth-child(2){
+    background: grey;
+    color: white;
+    border: 2px solid grey;
+}
+.show .box .actions button:nth-child(1):hover{
+    background: white;
+    color: rgba(95, 126, 158, 0.784);
+    border: 2px solid rgba(95, 126, 158, 0.784);
+}
+.show .box .actions button:nth-child(2):hover{
+    background:white;
+    color: gray;
+    border: 2px solid grey;
+}

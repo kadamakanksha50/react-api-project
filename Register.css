@@ -1,0 +1,98 @@
+.register{
+    width: 100%;
+    height: 694px;
+    background: url('https://t3.ftcdn.net/jpg/02/92/90/56/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin-top: none;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    margin-top: 20px;
+}
+.register .contain{
+    width: 740px;
+    height: 650px;
+    background: transparent;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.register .contain .title{
+    border-bottom: 2px solid rgba(95, 126, 158, 0.784);
+    width: 100%;
+}
+.contain .title h2{
+    color: rgba(78, 121, 164, 0.784);
+}
+.contain .sign-up form .input-field{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+form .input-field label{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 7px;
+    color: rgba(78, 121, 164, 0.784);
+    font-weight: 600;
+}
+form .input-field input{
+    width: 480px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgba(95, 126, 158, 0.784);
+}
+form .input-field input:focus{
+    border: 2px solid #4dabf7;
+}
+form .input-field select{
+    width: 525px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgba(95, 126, 158, 0.784);
+    color: rgba(95, 126, 158, 0.784);
+}
+form .input-field select:focus{
+    border: 2px solid #4dabf7;
+}
+form .input-field input[type="submit"]{
+    width: 525px;
+    margin-top: 10px;
+    background: rgba(78, 121, 164, 0.784);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+form .input-field input[type="submit"]:hover{
+    border: 2px solid #4288C0;
+    background: white;
+    color: #4288C0;
+}
+form .login-link{
+    display: flex;
+    flex-direction: row;
+    margin-left: 330px;
+}
+form .login-link p{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+form .login-link a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgba(95, 126, 158, 0.784);
+    font-weight: 600;
+    font-style: italic;
+}
+.process{
+    background: silver !important;
+    cursor: no-drop !important;
+}

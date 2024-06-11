@@ -1,0 +1,72 @@
+.container{
+    width: 100%;
+    height: 694px;
+    background: url('https://wallpapers.com/images/hd/professional-background-4myolhhxiwna65b5.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .login{
+    width: 400px;
+    height: 360px;
+    background: transparent;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.container .login .title{
+    border-bottom: 2px solid darkblue;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .login .title h2{
+    color: darkblue;
+}
+.container .login form .input-field input[type="email"],
+.container .login form .input-field input[type="password"]{
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    color: darkblue;
+}
+.container .login form .input-field input[type="email"]:focus,
+.container .login form .input-field input[type="password"]:focus{
+    border: 2px solid darkblue;
+}
+.container .login form .input-field input[type="submit"]{
+    width: 340px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: darkblue;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.container .login form .input-field input[type="submit"]:hover{
+    background: #90A4C5;
+}
+.process{
+    background: silver !important;
+    cursor: no-drop !important;
+}
+.login .regi-link a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(95, 126, 158, 0.784);
+    font-style: italic;
+}
